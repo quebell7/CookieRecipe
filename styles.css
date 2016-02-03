@@ -31,18 +31,24 @@ body {
 
 
 body {
+	margin:10px;
+    padding:8px 100px 80px 40px;
+	font-family: georgia, "Times New Roman",
+        Times, serif;
 	background-color: #FFE;
 	border: 40px solid #7F7F77;
-	padding: 2px;
-	font-family: georgia;
 }
 
 h1 { 
-	color: #679952
+    color: #679952
 }
 
 
 h4 {
+	font-family: Helvetica, Geneva, Arial,
+    	SunSans-Regular, sans-serif;
+    font-size: .8em;
+    letter-spacing: .05em;
 	color: #679952
 }
 
@@ -50,15 +56,53 @@ h5 {
 	color: #679952
 }
 
+p {
+	font-size: 1em;
+}
+
+p.extra-info {
+	font-size: .8em;
+	font-style: italic;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #cacaca;
+    border-width: 1px;
+}
+
 a {
 	color: #900
 }
 
 img {
-	margin: 6px;
-	padding: 2px;
+	margin: 2px;
+	padding: 1px;
 	border: 10px solid #B4CCAA;
 }
+
+figcaption {
+	font-size: .8em;
+	font-style: italic;
+	text-align: center;
+	margin: 2px;
+	width: 588px;
+    height: 80px;
+    background-color: #CCCCBE;
+}
+
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted
+}
+
 
 
 
