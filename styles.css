@@ -7,15 +7,58 @@
 
 - Bonus: The border on the page and around the image is black*/
 
-@font-face {
-	font-family: Adelle
+/*---- trying to center everything -----*/
+/*body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
 }
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 10px solid #900;
+    border-right: 10px solid #900;  
+}
+*/
+/*--------------------------------------*/
+
 
 body {
-	background-color: #FFE
-
+	background-color: #FFE;
+	border: 40px solid #7F7F77;
+	padding: 2px;
+	font-family: georgia;
 }
 
-h1 {
-
+h1 { 
+	color: #679952
 }
+
+
+h4 {
+	color: #679952
+}
+
+h5 {
+	color: #679952
+}
+
+a {
+	color: #900
+}
+
+img {
+	margin: 6px;
+	padding: 2px;
+	border: 10px solid #B4CCAA;
+}
+
+
+
