@@ -30,31 +30,96 @@ body {
 /*--------------------------------------*/
 
 
+
+/***************************
+PAGE BODY STYLE 
+***************************/
+
 body {
-	margin:10px;
-    padding:8px 100px 80px 40px;
 	font-family: georgia, "Times New Roman",
         Times, serif;
 	background-color: #FFE;
+	color: #333;
 	border: 40px solid #7F7F77;
 }
 
-h1 { 
-    color: #679952
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20%;
 }
 
 
+/***************************
+HEADLINE STYLES 
+***************************/
+
+/* green headline style */
+h1 { 
+    font-family: "adelle", serif;
+	font-style: bold;
+	font-weight: 900;
+    color: #679952
+}
+
+/* green subheaders */
 h4 {
-	font-family: Helvetica, Geneva, Arial,
-    	SunSans-Regular, sans-serif;
-    font-size: .8em;
-    letter-spacing: .05em;
+    
+    font-family: "adelle",serif;
+    margin: 25px 0 0;
+	font-style: normal;
+	font-weight: 300;
+	font-size: .8em;
+	line-height: .8em;
+    letter-spacing: .07em;
 	color: #679952
 }
 
 h5 {
-	color: #679952
+	color: #679952;
+	font-family: "adelle", serif;
+	font-weight: normal;
+	line-height: .8em;
 }
+
+
+
+/***************************
+PAGE HEADER STYLE 
+***************************/
+
+#header-style {
+	text-align: center;
+	margin: 0;
+	background: #fff;
+	border-color: #fff;
+}
+
+
+
+/***************************
+PAGE PHOTO STYLE 
+***************************/
+
+#photo {
+	text-align: center;
+	margin: 0;
+	padding: 0 5%;
+}
+
+#photo-caption {
+	text-align: left;
+	background: #fff;
+	font-size: .8em;
+	font-style: italic;
+	margin: 0 22%;
+	padding: 10px 5%;
+}
+
+
+/***************************
+TYPE STYLES
+***************************/
 
 p {
 	font-size: 1em;
@@ -64,6 +129,18 @@ p.extra-info {
 	font-size: .8em;
 	font-style: italic;
 }
+
+a, a:visited {
+	text-decoration: none;
+	color: #9A83B2;
+}
+
+a:hover {
+	color: #806C94;
+}
+
+
+/* rule */
 
 hr { 
     display: block;
@@ -76,14 +153,15 @@ hr {
     border-width: 1px;
 }
 
-a {
-	color: #900
-}
 
+/***************************
+IMG STYLES
+***************************/
 img {
 	margin: 2px;
 	padding: 1px;
 	border: 10px solid #B4CCAA;
+	text-align: center;
 }
 
 figcaption {
@@ -97,11 +175,6 @@ figcaption {
 }
 
 
-address {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: thin dotted
-}
 
 
 
